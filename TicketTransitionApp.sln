@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ticket-Transition-Application-LLD", "Ticket-Transition-Application-LLD", "{1A4EB594-E592-4766-BA72-EBD2F47318A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sol1-Without-StateDesignPattern-ConsoleApp", "Sol1-Without-StateDesignPattern-ConsoleApp", "{DB627FB1-D194-45C6-B07A-A09385FB4AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketTransitionApp", "Ticket-Transition-Application-LLD\Sol1-Without-StateDesignPattern-ConsoleApp\TicketTransitionApp\TicketTransitionApp.csproj", "{A480321D-7F0C-4266-BA17-88C1A099264E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sol2-With-StateDesignPattern", "Ticket-Transition-Application-LLD\Sol2-With-StateDesignPattern\Sol2-With-StateDesignPattern.csproj", "{2D46044F-38B3-40FC-8062-F58FA34917FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A480321D-7F0C-4266-BA17-88C1A099264E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A480321D-7F0C-4266-BA17-88C1A099264E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A480321D-7F0C-4266-BA17-88C1A099264E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A480321D-7F0C-4266-BA17-88C1A099264E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F7FADCF-41FC-4596-A361-16E3B0F1131B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F7FADCF-41FC-4596-A361-16E3B0F1131B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F7FADCF-41FC-4596-A361-16E3B0F1131B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F7FADCF-41FC-4596-A361-16E3B0F1131B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D46044F-38B3-40FC-8062-F58FA34917FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D46044F-38B3-40FC-8062-F58FA34917FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D46044F-38B3-40FC-8062-F58FA34917FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D46044F-38B3-40FC-8062-F58FA34917FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB627FB1-D194-45C6-B07A-A09385FB4AC3} = {1A4EB594-E592-4766-BA72-EBD2F47318A3}
+		{A480321D-7F0C-4266-BA17-88C1A099264E} = {DB627FB1-D194-45C6-B07A-A09385FB4AC3}
+		{2D46044F-38B3-40FC-8062-F58FA34917FF} = {1A4EB594-E592-4766-BA72-EBD2F47318A3}
+	EndGlobalSection
+EndGlobal
