@@ -11,7 +11,7 @@
         4. Immutability: Once constructed, the object should not change.
     
     
-    C# Code 
+    ```csharp C# Code 
     
     
     // Product class
@@ -77,7 +77,7 @@
         }
     }
     
-    
+    ```
     
 
     Key Best Practices in the Example
@@ -105,7 +105,7 @@
     
 
     Example 1: Building Database Connection Settings
-    
+    ```csharp
     // Class representing database connection settings
     public class DatabaseConnectionSettings
     {
@@ -235,6 +235,7 @@
             Console.WriteLine($"API Client Config: BaseUrl={apiConfig.BaseUrl}, Timeout={apiConfig.Timeout}, SSL={apiConfig.UseSsl}");
         }
     }
+    ```
     Key Best Practices in These Examples
         1. Validation: Ensure all mandatory fields are checked before the object is built.
         2. Fluent Interface: Each method in the builder returns the builder itself, enabling clean, readable code.
