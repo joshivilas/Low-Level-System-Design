@@ -1,22 +1,27 @@
-﻿// See https://aka.ms/new-console-template for more information
-using ItineraryBuilder;
+﻿using ItineraryBuilder;
 
-Console.WriteLine("Hello, World!");
-
-try
+internal class Program
 {
-    var itineraray = Itinerary.Builder
-                .Create()
-                .SetTravelerName("AlgoCamp")
-                .SetStartTime(new DateTime(2025, 10, 1))
-                .SetEndTime(new DateTime(2025, 10, 20))
-                .SetOrigin("MSTY")
-                .SetDestination("GGL")
-                .Build();
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
 
-    itineraray.ShowItineraryInfo();
-}
-catch (Exception ex)
-{
-    Console.WriteLine(ex.ToString());
+        try
+        {
+            var itineraray = Itinerary.Builder
+                        .Create()
+                        .SetTravelerName("AlgoCamp")
+                        .SetStartTime(new DateTime(2025, 10, 1))
+                        .SetEndTime(new DateTime(2025, 10, 20))
+                        .SetOrigin("MST")
+                        .SetDestination("GGL")
+                        .Build();
+
+            itineraray.ShowItineraryInfo();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.ToString());
+        }
+    }
 }
