@@ -1,0 +1,3 @@
+Problem1:
+There is consumer which consumes data from a data source (assume it is list).
+Creating a consumer which will read data one by one.
